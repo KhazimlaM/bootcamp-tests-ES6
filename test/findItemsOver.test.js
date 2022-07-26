@@ -59,12 +59,13 @@ var itemList = [
   ];
 
 describe('Test for my findItemsOver function' , function(){
-    it("it should return 'pears' if the information passed in is 'itemList3' ", function(){
+   it("it should return the list of items over '20' ") , function(){
+    
         assert.deepEqual(results3,findItemsOver(itemList3,20));
         
     });
 
-    it("it should return 'pears' if the information passed in is 'itemList2' ", function(){
+    it("it should return the list of items over '19' ", function(){
         assert.deepEqual(results2, findItemsOver(itemList2,19));
         
     });
