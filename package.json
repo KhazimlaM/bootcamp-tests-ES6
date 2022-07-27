@@ -22,9 +22,11 @@
     "dev": "",
     "test": "mocha"
   },
-  "devDependencies": {},
   "directories": {
     "test": "test"
   },
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "mocha": "^10.0.0"
+  }
 }
