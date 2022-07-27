@@ -1,7 +1,6 @@
 {
-  "name": "",
+  "name": "ES6Modules-terminal-tests",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "license": "AGPL-version-3.0",
@@ -17,22 +16,15 @@
   },
   "bugs": "",
   "keywords": [],
-  "author": {
-    "name": "",
-    "email": "",
-    "url": ""
-  },
-  "contributors": [
-
-  ],
+  "author": "",
+  "contributors": [],
   "scripts": {
     "dev": "",
     "test": "mocha"
   },
-  "dependencies": {
-
+  "devDependencies": {},
+  "directories": {
+    "test": "test"
   },
-  "devDependencies": {
-
-  }
+  "description": ""
 }
